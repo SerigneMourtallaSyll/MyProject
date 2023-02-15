@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="panier.css">
+        <title>Mini-projet-bootstrap</title>
+        <link rel="icon" type="image/png" href="favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" style="font-size: 30px;">FreeAppleTech</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" style='color:black; border: none;' data-bs-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+                <ul class="navbar-nav menu-navbar text-center">
+                  <li class="nav-item mx-2">
+                    <a class="nav-link h3" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link h3" href="products.html">Products</a>
+                  </li>
+                  <li class="nav-item dropdown mx-2">
+                    <a class="nav-link h3 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      log in 
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item text-center" href="logIn.html"><button type="button" class="btn btn-dark">Log in page</button></a></li>
+                      <li><a class="dropdown-item text-center" href="SignUp.html"><button type="button" class="btn btn-dark">Sign up</button></a></li>
+                      <li><a class="dropdown-item text-center" href="#">Your orders</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link h3" href="#mostproduct">Top products</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link h3" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex justify-content-end" role="search">
+                  <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                  <i class="fas fa-search"></i>
+                  <a href="panier.html">
+                    <i class="fab fa-shopify" style="color: #fff; font-size: 35px;"></i>                  
+                  </a>                
+                </form>
+              </div>
+            </div>
+        </nav>
+        <section class="panier">
+            <div class="container">
+                <div class="row">
+                    <div class="col justify-content-center text-center">
+                        <i class="fab fa-shopify" style="color: #000; font-size: 100px;"></i>
+                        <h3>Your cart is empty!</h3><br>  
+                        <p>Browse our categories and discover our best offers</p><br><br>
+                        <a href="products.html">
+                            <button type="submit" class="main-btn"><h6>START YOUR PURCHASES</h6></button> 
+                        </a>            
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="text-center">
+            <p>Sample text. Click to select the text box. Click again or double<br>click to start editing the text.</p><br><br><br>
+            <p><a href="#">Website Templates</a> create with <a href="#">Bakeli school of Technologies</a>.</p>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </body>
+</html>

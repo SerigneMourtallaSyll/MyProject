@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="products.css">
+        <title>Mini-projet-bootstrap</title>
+        <link rel="icon" type="image/png" href="favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" style="font-size: 30px;">FreeAppleTech</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" style='color:black; border: none;' data-bs-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+                <ul class="navbar-nav menu-navbar text-center">
+                  <li class="nav-item mx-2">
+                    <a class="nav-link h3" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link h3" href="products.html">Products</a>
+                  </li>
+                  <li class="nav-item dropdown mx-2">
+                    <a class="nav-link h3 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      log in 
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item text-center" href="logIn.html"><button type="button" class="btn btn-dark">Log in page</button></a></li>
+                      <li><a class="dropdown-item text-center" href="SignUp.html"><button type="button" class="btn btn-dark">Sign up</button></a></li>
+                      <li><a class="dropdown-item text-center" href="#">Your orders</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link h3" href="#mostproduct">Top Products</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link h3" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex justify-content-end" role="search">
+                  <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                  <i class="fas fa-search"></i>
+                  <a href="panier.html">
+                    <i class="fab fa-shopify" style="color: #fff; font-size: 35px;"></i>                  
+                  </a>                
+                </form>
+              </div>
+            </div>
+        </nav>
+        <section class="nav-categories mt-5 py-3">
+          <div class="container mt-4">
+            <div class="row">
+              <div class="col-md-3">
+                <a href="#phones"><h5>Phones</h5></a>
+              </div>
+              <div class="col-md-3">
+                <a href="IWatch.html"><h5>IWatch</h5></a>
+              </div>
+              <div class="col-md-3">
+                <a href="fashion-accessory.html"><h5><span>Fashion Accessory</span></h5></a>
+              </div>
+              <div class="col-md-3">
+                <a href="mac.html"><h5><span>Macbook</span></h5></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="portail-phone">
+          <div class="text-center">
+            <h3><span>iPhone 14 et</span> iPhone 14 Plus</h3>
+            <h1>Exceptional to excess.</h1>
+          </div><br><br>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-2">
+                <img src="ip14-5.png" alt="..." style="height: 450px;">
+              </div>
+              <div class="col-md-2">
+                <img src="ip14-4.png" alt="..." style="height: 400px;">
+              </div>
+              <div class="col-md-3">
+                <img src="ip14-3.png" alt="..." style="height: 400px;">
+              </div>
+              <div class="col-md-2">
+                <img src="ip14-2.png" alt="..." style="height: 400px;">
+              </div>
+              <div class="col-md-2">
+                <img src="ip14-1.png" alt="..." style="height: 450px;">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="phones">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="phones-item text-center p-2" style="height: 260px;">
+                    <a class="phones-link" data-bs-toggle="modal" href="#phonesModal1">
+                      <div class="phones-hover">
+                          <div class="phones-hover-content col align-self-center">
+                              <i class="fas fa-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img src="iphon13.jpg" alt="img-phones" class="img-fluid" style="height: 245px;">
+                    </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="phones-item text-center p-2" style="height: 260px;">
+                    <a class="phones-link" data-bs-toggle="modal" href="#phonesModal2">
+                      <div class="phones-hover">
+                          <div class="phones-hover-content col align-self-center">
+                              <i class="fas fa-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img src="iphones-img.jpg" alt="img-phones" class="img-fluid mb-0" style="height: 245px">
+                    </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="phones-item text-center p-2" style="height: 260px;">
+                    <a class="phones-link" data-bs-toggle="modal" href="#phonesModal3">
+                      <div class="phones-hover">
+                          <div class="phones-hover-content col align-self-center">
+                              <i class="fas fa-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img src="ipad-mini5-JQ0139554.jpg" alt="img-phones" class="img-fluid" style="height: 245px">
+                    </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="phones-item text-center p-2" style="height: 260px;">
+                    <a class="phones-link" data-bs-toggle="modal" href="#phonesModal4">
+                      <div class="phones-hover">
+                          <div class="phones-hover-content col align-self-center">
+                              <i class="fas fa-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img src="ipadpro.jpg" alt="img-phones" class="img-fluid" style="height: 245px">
+                    </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="phones-item text-center p-2" style="height: 260px;">
+                    <a class="phones-link" data-bs-toggle="modal" href="#phonesModal5">
+                      <div class="phones-hover">
+                          <div class="phones-hover-content col align-self-center">
+                              <i class="fas fa-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img src="iphones-img1.jpg" alt="img-phones" class="img-fluid" style="height: 245px;">
+                    </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="phones-item text-center p-2" style="height: 260px;">
+                    <a class="phones-link" data-bs-toggle="modal" href="#phonesModal6">
+                      <div class="phones-hover">
+                          <div class="phones-hover-content col align-self-center">
+                              <i class="fas fa-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img src="ipad-7.jpg" alt="img-phones" class="img-fluid" style="height: 245px;">
+                    </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="phones-item text-center p-2" style="height: 260px;">
+                    <a class="phones-link" data-bs-toggle="modal" href="#phonesModal7">
+                      <div class="phones-hover">
+                          <div class="phones-hover-content col align-self-center">
+                              <i class="fas fa-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img src="ipad3.jpg" alt="img-phones" class="img-fluid mb-0" style="height: 245px;">
+                    </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="phones-item text-center p-2" style="height: 260px;">
+                    <a class="phones-link" data-bs-toggle="modal" href="#phonesModal8">
+                      <div class="phones-hover">
+                          <div class="phones-hover-content col align-self-center">
+                              <i class="fas fa-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img src="ipad4.jpg" alt="img-phones" class="img-fluid mb-0" style="height: 245px;">
+                    </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="text-center">
+            <p>Sample text. Click to select the text box. Click again or double<br>click to start editing the text.</p><br><br><br>
+            <p><a href="#">Website Templates</a> create with <a href="#">Bakeli school of Technologies</a>.</p>
+        </footer>
+
+              <!-----------------------------------------Link Portfolio----------------------------------------->
+        <div class="phones-modal modal fade" id="phonesModal1" tabindex="-1" style="display: none;" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="close-modal" data-bs-dismiss="modal"><img src="close-icon.png" alt="Close modal" width="50" height="50"></div>
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-lg-8">
+                            <center>
+                              <div class="modal-body">
+                                  <h2 class="text-uppercase text-center">Details du produits</h2>
+                                  <p class="item-intro text-muted text-center">Lorem ipsum dolor sit amet consectetur.</p>
+                                  <img class="img-fluid d-block mx-auto" src="iphon13.jpg" alt="...">
+                                  <p class="text-center">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                  <ul class="list-inline text-center">
+                                      <li>
+                                          <strong>Client:</strong>
+                                          Threads
+                                      </li>
+                                      <li>
+                                          <strong>Category:</strong>
+                                          Phone
+                                      </li>
+                                  </ul>
+                                  <div>
+                                    <a href="panier.html">
+                                      <i class="fab fa-shopify" style="color: #000; font-size: 50px;"></i>
+                                    </a>
+                                  </div><br>
+                                  <button class="btn btn-primary btn-xl text-uppercase text-center" data-bs-dismiss="modal" type="button">
+                                      <svg class="svg-inline--fa fa-xmark me-1" width="25" height="25" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"></path></svg><!-- <i class="fas fa-xmark me-1"></i> Font Awesome fontawesome.com -->
+                                      <strong>Close Product </strong>
+                                  </button>
+                              </div>
+                            </center>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="phones-modal modal fade" id="phonesModal2" tabindex="-1" style="display: none;" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="close-modal" data-bs-dismiss="modal"><img src="close-icon.png" alt="Close modal" width="50" height="50"></div>
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-lg-8">
+                            <center>
+                              <div class="modal-body">
+                                  <h2 class="text-uppercase">Details du produits</h2>
+                                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                  <img class="img-fluid d-block mx-auto" src="iphones-img.jpg" alt="...">
+                                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                  <ul class="list-inline">
+                                      <li>
+                                          <strong>Client:</strong>
+                                          Threads
+                                      </li>
+                                      <li>
+                                          <strong>Category:</strong>
+                                          Phone
+                                      </li>
+                                  </ul>
+                                  <div>
+                                    <a href="panier.html">
+                                      <i class="fab fa-shopify" style="color: #000; font-size: 50px;"></i>
+                                    </a>
+                                  </div><br>
+                                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                      <svg class="svg-inline--fa fa-xmark me-1" width="25" height="25" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"></path></svg><!-- <i class="fas fa-xmark me-1"></i> Font Awesome fontawesome.com -->
+                                      <strong>Close Product </strong>
+                                  </button>
+                              </div>
+                            </center>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="phones-modal modal fade" id="phonesModal3" tabindex="-1" style="display: none;" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="close-modal" data-bs-dismiss="modal"><img src="close-icon.png" alt="Close modal" width="50" height="50"></div>
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-lg-8">
+                            <center>
+                              <div class="modal-body">
+                                  <h2 class="text-uppercase">Details du produits</h2>
+                                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                  <img class="img-fluid d-block mx-auto" src="ipad-mini5-JQ0139554.jpg" alt="...">
+                                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                  <ul class="list-inline">
+                                      <li>
+                                          <strong>Client:</strong>
+                                          Threads
+                                      </li>
+                                      <li>
+                                          <strong>Category:</strong>
+                                          Phone
+                                      </li>
+                                  </ul>
+                                  <div>
+                                    <a href="panier.html">
+                                      <i class="fab fa-shopify" style="color: #000; font-size: 50px;"></i>
+                                    </a>
+                                  </div><br>
+                                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                      <svg class="svg-inline--fa fa-xmark me-1" width="25" height="25" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"></path></svg><!-- <i class="fas fa-xmark me-1"></i> Font Awesome fontawesome.com -->
+                                      <strong>Close Product </strong>
+                                  </button>
+                              </div>
+                            </center>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="phones-modal modal fade" id="phonesModal4" tabindex="-1" style="display: none;" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="close-modal" data-bs-dismiss="modal"><img src="close-icon.png" alt="Close modal" width="50" height="50"></div>
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-lg-8">
+                            <center>
+                              <div class="modal-body">
+                                  <h2 class="text-uppercase">Details du produits</h2>
+                                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                  <img class="img-fluid d-block mx-auto" src="ipadpro.jpg" alt="...">
+                                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                  <ul class="list-inline">
+                                      <li>
+                                          <strong>Client:</strong>
+                                          Threads
+                                      </li>
+                                      <li>
+                                          <strong>Category:</strong>
+                                          Phone
+                                      </li>
+                                  </ul>
+                                  <div>
+                                    <a href="panier.html">
+                                      <i class="fab fa-shopify" style="color: #000; font-size: 50px;"></i>
+                                    </a>
+                                  </div><br>
+                                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                      <svg class="svg-inline--fa fa-xmark me-1" width="25" height="25" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"></path></svg><!-- <i class="fas fa-xmark me-1"></i> Font Awesome fontawesome.com -->
+                                      <strong>Close Product </strong>
+                                  </button>
+                              </div>
+                            </center>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="phones-modal modal fade" id="phonesModal5" tabindex="-1" style="display: none;" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="close-modal" data-bs-dismiss="modal"><img src="close-icon.png" alt="Close modal" width="50" height="50"></div>
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-lg-8">
+                            <center>
+                              <div class="modal-body">
+                                  <h2 class="text-uppercase">Details du produits</h2>
+                                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                  <img class="img-fluid d-block mx-auto" src="iphones-img1.jpg" alt="...">
+                                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                  <ul class="list-inline">
+                                      <li>
+                                          <strong>Client:</strong>
+                                          Threads
+                                      </li>
+                                      <li>
+                                          <strong>Category:</strong>
+                                          Phone
+                                      </li>
+                                  </ul>
+                                  <div>
+                                    <a href="panier.html">
+                                      <i class="fab fa-shopify" style="color: #000; font-size: 50px;"></i>
+                                    </a>
+                                  </div><br>
+                                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                      <svg class="svg-inline--fa fa-xmark me-1" width="25" height="25" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"></path></svg><!-- <i class="fas fa-xmark me-1"></i> Font Awesome fontawesome.com -->
+                                      <strong>Close Product </strong>
+                                  </button>
+                              </div>
+                            </center>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="phones-modal modal fade" id="phonesModal6" tabindex="-1" style="display: none;" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="close-modal" data-bs-dismiss="modal"><img src="close-icon.png" alt="Close modal" width="50" height="50"></div>
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-lg-8">
+                            <center>
+                              <div class="modal-body">
+                                  <h2 class="text-uppercase">Details du produits</h2>
+                                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                  <img class="img-fluid d-block mx-auto" src="ipad-7.jpg" alt="...">
+                                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                  <ul class="list-inline">
+                                      <li>
+                                          <strong>Client:</strong>
+                                          Threads
+                                      </li>
+                                      <li>
+                                          <strong>Category:</strong>
+                                          Phone
+                                      </li>
+                                  </ul>
+                                  <div>
+                                    <a href="panier.html">
+                                      <i class="fab fa-shopify" style="color: #000; font-size: 50px;"></i>
+                                    </a>
+                                  </div><br>
+                                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                      <svg class="svg-inline--fa fa-xmark me-1" width="25" height="25" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"></path></svg><!-- <i class="fas fa-xmark me-1"></i> Font Awesome fontawesome.com -->
+                                      <strong>Close Product </strong>
+                                  </button>
+                              </div>
+                            </center>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="phones-modal modal fade" id="phonesModal7" tabindex="-1" style="display: none;" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="close-modal" data-bs-dismiss="modal"><img src="close-icon.png" alt="Close modal" width="50" height="50"></div>
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-lg-8">
+                            <center>
+                              <div class="modal-body">
+                                  <h2 class="text-uppercase">Details du produits</h2>
+                                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                  <img class="img-fluid d-block mx-auto" src="ipad3.jpg" alt="...">
+                                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                  <ul class="list-inline">
+                                      <li>
+                                          <strong>Client:</strong>
+                                          Threads
+                                      </li>
+                                      <li>
+                                          <strong>Category:</strong>
+                                          Phone
+                                      </li>
+                                  </ul>
+                                  <div>
+                                    <a href="panier.html">
+                                      <i class="fab fa-shopify" style="color: #000; font-size: 50px;"></i>
+                                    </a>
+                                  </div><br>
+                                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                      <svg class="svg-inline--fa fa-xmark me-1" width="25" height="25" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"></path></svg><!-- <i class="fas fa-xmark me-1"></i> Font Awesome fontawesome.com -->
+                                      <strong>Close Product </strong>
+                                  </button>
+                              </div>
+                            </center>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="phones-modal modal fade" id="phonesModal8" tabindex="-1" style="display: none;" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="close-modal" data-bs-dismiss="modal"><img src="close-icon.png" alt="Close modal" width="50" height="50"></div>
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-lg-8">
+                            <center>
+                              <div class="modal-body">
+                                  <h2 class="text-uppercase">Details product</h2>
+                                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                  <img class="img-fluid d-block mx-auto" src="ipad4.jpg" alt="...">
+                                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                  <ul class="list-inline">
+                                      <li>
+                                          <strong>Client:</strong>
+                                          Threads
+                                      </li>
+                                      <li>
+                                          <strong>Category:</strong>
+                                          Phone
+                                      </li>
+                                  </ul>
+                                  <div>
+                                    <a href="panier.html">
+                                      <i class="fab fa-shopify" style="color: #000; font-size: 50px;"></i>
+                                    </a>
+                                  </div><br>
+                                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                      <svg class="svg-inline--fa fa-xmark me-1" width="25" height="25" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"></path></svg><!-- <i class="fas fa-xmark me-1"></i> Font Awesome fontawesome.com -->
+                                      <strong>Close Product </strong>
+                                  </button>
+                              </div>
+                            </center>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </body>
+</html>

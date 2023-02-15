@@ -1,0 +1,178 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+}
+
+center
+{
+    background-color: #000;
+    padding:15%;
+}
+/*----------------------------form-------------------------*/
+fieldset
+{
+    background-color: #fff;
+    width: 50%;
+    border-radius: 5%;
+}
+
+fieldset .form-control
+{
+    border: 1px solid rgb(209, 200, 200);
+    border-radius: 20px 20px 20px 20px ;
+    width: 100%;
+}
+
+fieldset form
+{
+    padding: 25%;
+}
+
+fieldset form .inpt
+{
+    display: flex;
+    justify-content: space-between;
+} 
+
+
+fieldset form .inpt i
+{
+    width: 100%;
+    height: 70%;
+    background-color: #000; 
+    color:#fff;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+fieldset form .inpt button
+{
+    width: 100%;
+}
+
+
+hr
+{
+    width: 60%;
+    background-color: #000 !important;
+}
+
+form button
+{
+    padding: 2% 20%;
+    background-color: #fff;
+    border: 1px solid rgb(209, 200, 200);
+    border-radius: 20px 20px 20px 20px ;
+}
+
+form button a 
+{
+    text-decoration: none;
+    color: #000 !important;
+}
+
+
+/*----------------------------Footer-------------------------*/
+footer
+{
+    background-color: #000;
+    color: #fff;
+    padding: 2%;
+}
+
+/*----------------------Media queries-------------------*/
+
+@media screen and (max-width:789px) 
+{
+    fieldset   
+    {
+        width: 100%;
+    }
+
+    fieldset form
+    {
+        padding: 10%;
+    }
+
+    fieldset form .inpt button
+    {
+        width: 210px;
+    }
+
+    fieldset form .inpt .fa-sign-in-alt
+    {
+        padding-left: 30%;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (min-width:100px) and (max-width:330px) 
+{
+    center 
+    {
+        padding: 5%;
+    }
+
+    fieldset form
+    {
+        padding: 3%;
+    }
+
+    fieldset
+    {
+        width: 100%;
+    }
+
+    fieldset form .inpt button
+    {
+        width: 205px;
+    }
+}
+
+@media screen and (min-width:380px) and (max-width:480px)  
+{
+    center 
+    {
+        padding: 5%;
+    }
+
+    fieldset form
+    {
+        padding: 15%;
+    }
+
+    fieldset
+    {
+        width: 100%;
+    }
+
+    fieldset form .inpt button
+    {
+        width: 205px;
+    }
+}
+
+@media screen and (min-width:330px) and (max-width:380px)  
+{
+    center 
+    {
+        padding: 5%;
+    }
+
+    fieldset form
+    {
+        padding: 10%;
+    }
+
+    fieldset
+    {
+        width: 100%;
+    }
+
+    fieldset form .inpt button
+    {
+        width: 205px;
+    }
+}

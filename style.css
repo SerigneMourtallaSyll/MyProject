@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Montserrat:ital@0;1&family=Playball&family=Playfair+Display:ital,wght@1,600&family=Poppins:wght@200;400&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar 
+{
+    background-color: rgb(39, 39, 39);
+}
+
+.navbar-brand
+{
+    font-family: 'Playball';
+    color:  #fff !important;
+    font-size: 40px;
+}
+
+#navbarNav form
+{
+    margin-left: auto;
+}
+
+#navbarNav form input
+{
+    width: 200px;
+    border-radius: 30px 30px 30px 30px ;
+}
+
+#navbarNav form .fa-search
+{
+    margin-left: -10%;
+    margin-top: 5%;
+}
+
+#navbarNav form a
+{
+    margin-left: 30%;
+}
+
+
+#navbarNav ul
+{
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #fff;
+}
+
+#navbarNav li a 
+{
+    color: white !important;
+    font-size: 15px;
+}
+
+#navbarNav .dropdown-item
+{
+    color: #000 !important;
+}
+
+@media screen and (max-width:789px) 
+{
+    #navbarNav form .fa-search
+    {
+        margin-top: 10%;
+        margin-left: -20%;
+    }
+
+    #navbarNav form a
+    {
+        margin-left: 100px;
+    }
+
+    #navbarNav form 
+    {
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+}
+
+@media screen and (min-width:100px) and (max-width:330px) 
+{
+    .navbar
+    {
+        width: 100%;
+    }
+
+    #navbarNav form .fa-search
+    {
+        margin-top: 10%;
+        margin-left: -25%;
+    }
+
+    #navbarNav form a
+    {
+        margin-left: 40px;
+    }
+
+    #navbarNav form 
+    {
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+    #navbarNav form input
+    {
+        width: 140px;
+    }
+
+    #temoignages
+    {
+        margin: 0;
+    }
+
+}
+
+@media screen and (min-width:380px) and (max-width:480px)  
+{
+    .navbar
+    {
+        width: 100%;
+    }
+
+    #navbarNav form .fa-search
+    {
+        margin-top: 10%;
+        margin-left: -25%;
+    }
+
+    #navbarNav form a
+    {
+        margin-left: 40px;
+    }
+
+    #navbarNav form 
+    {
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+    #navbarNav form input
+    {
+        width: 140px;
+    }
+
+}
+
+@media screen and (min-width:330px) and (max-width:380px)  
+{
+    .navbar
+    {
+        width: 100%;
+    }
+
+    #navbarNav form .fa-search
+    {
+        margin-top: 10%;
+        margin-left: -25%;
+    }
+
+    #navbarNav form a
+    {
+        margin-left: 40px;
+    }
+
+    #navbarNav form 
+    {
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+    #navbarNav form input
+    {
+        width: 140px;
+    }
+}
+
+/*----------------------------Section acceuil-------------------------*/
+.acceuil
+{
+    background-image: url('img-acceuil1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15%;
+    color: #fff;
+}
+
+.acceuil h1
+{
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+
+.acceuil h1 span
+{
+    color: rgb(214, 206, 206);
+    font-family: 'Playball'
+}
+
+.acceuil .main-btn
+{
+    border-radius: 10px 10px 10px 10px;
+    background-color: #fff;
+    padding: 1% 8%;
+    border: 1px solid transparent;
+}
+
+.acceuil .main-btn h6
+{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/*----------------------------Section acceuil-------------------------*/
+.services
+{
+    background-color: #000;
+    padding: 5%;
+    color: #fff;
+}
+
+.services h2
+{
+    color: #fff;
+}
+
+/*----------------------------Section Propos-------------------------*/
+.propos
+{
+    background-color: #000;
+    padding: 5%;
+    color: #fff;
+}
+
+.propos .main-btn
+{
+    border-radius: 10px 10px 10px 10px;
+    background-color: #fff;
+    padding: 1% 1%;
+    border: 1px solid transparent;
+}
+
+.propos .main-btn h6
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*----------------------------Section Propos-------------------------*/
+
+.products
+{
+    background-color: #000;
+    padding: 3%;
+    color: #fff;
+}
+
+.products .carsl
+{
+    margin-left: 29.5%;
+    margin-right: 29.5%;
+    width: 500px;
+    height: 20%;
+}
+
+.products .carousel-indicators button
+{
+    opacity: 1;
+    background-color: transparent;
+}
+
+.products .carousel-control-prev-icon , .carousel-control-next-icon
+{
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10%;
+}
+
+.products .main-btn
+{
+    border-radius: 10px 10px 10px 10px;
+    background-color: #fff;
+    padding: 1% 6%;
+    border: 1px solid transparent;
+}
+
+.products .main-btn h6
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*----------------------------Section Témoignages-------------------------*/
+
+#temoignages
+{
+    margin: 100px 0;
+}
+
+.temoignages
+{
+    border-left: 4px solid #000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.temoignages img 
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-temoins
+{
+    display: inline-block;
+    font-size: 12px; 
+}
+
+.title::before
+{
+    content: '';
+    background: #000;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after
+{
+    content: '';
+    background: #000;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+/*----------------------------Section categories-------------------------*/
+
+.categories
+{
+    background-color: #000;
+    color: #fff;
+    padding: 3%;
+}
+
+.categories img
+{
+    width: 100%;
+    height: 80%;
+    border-radius: 10%;
+}
+
+/*----------------------------Section Propos-------------------------*/
+.contact
+{
+    background-color: #000;
+    padding: 5%;
+    color: #fff;
+}
+
+.contact form .bttn
+{
+    display: flex;
+}
+
+.contact form .bttn input
+{
+    width: 100%;
+    height: 80%;
+}
+
+.contact form .bttn textarea
+{
+    width: 200px;
+}
+
+.contact .messages
+{
+   margin-left: 29.7%;
+   margin-right: 29.7%;
+}
+
+.contact #mess
+{
+    width: 100%;
+    height: 100px;
+}
+
+.contact .main-btn
+{
+    border-radius: 10px 10px 10px 10px;
+    background-color: #fff;
+    padding: 1% 8%;
+    border: 1px solid transparent;
+}
+
+.contact .main-btn h6
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*----------------------------Section categories-------------------------*/
+footer
+{
+    background-color: #000;
+    color: #fff;
+    padding: 2%;
+}
+
+/*----------------------------Media queries-------------------------*/
+
+
+@media screen and (max-width:789px) 
+{
+    .products .carsl
+    {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+
+    }
+
+    .contact #mess
+    {
+        width: 200px;
+    }
+
+    .contact .messages
+    {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    } 
+}
+
+@media screen and (min-width:100px) and (max-width:330px) 
+{
+    .products .carsl
+    {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .contact #mess
+    {
+        width: 200px;
+    }
+
+    .contact .messages
+    {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    } 
+
+    .contact .m-3 h6 , .messages h6
+    {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:380px) and (max-width:480px)  
+{
+    .products .carsl
+    {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .contact #mess
+    {
+        width: 200px;
+    }
+
+    .contact .messages
+    {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    } 
+
+}
+
+@media screen and (min-width:330px) and (max-width:380px)  
+{
+    .products .carsl
+    {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .contact #mess
+    {
+        width: 200px;
+    }
+
+    .contact .messages
+    {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    } 
+}
