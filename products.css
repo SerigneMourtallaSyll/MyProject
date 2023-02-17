@@ -139,6 +139,7 @@ body
     
     .close-modal{
         margin-right:200px;
+        display:none;
     }
 }
 
