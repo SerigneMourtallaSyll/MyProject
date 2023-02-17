@@ -129,6 +129,11 @@ body
         width: 20%;
         height: 100px;
     }
+    
+    .close-modal img{
+        font-size: 50px;
+        width:50px;
+    }
 }
 
 @media screen and (min-width:380px) and (max-width:480px)  
@@ -168,6 +173,11 @@ body
     .portail-phone img
     {
         width: 20%;
+    }
+    
+    .close-modal img{
+        font-size: 50px;
+        width:50px;
     }
 
 }
@@ -209,6 +219,11 @@ body
     .portail-phone img
     {
         width: 20%;
+    }
+    
+    .close-modal img{
+        font-size: 50px;
+        width:50px;
     }
 }
 
