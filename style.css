@@ -120,6 +120,16 @@ body
     .contact h6{
         font-size: 10px;
     }
+    
+    .acceuil .main-btn{
+        color:#000;
+        
+    }
+    
+    .acceuil h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
 
 }
 
@@ -159,6 +169,16 @@ body
     .contact h6{
         font-size: 10px;
     }
+    
+    .acceuil .main-btn{
+        color:#000;
+        
+    }
+    
+    .acceuil h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
 
 }
 
@@ -192,11 +212,21 @@ body
     }
     
     .acceuil {
-        padding-top: 30%;
+        padding-top: 50%;
     }
     
     .contact h6{
         font-size: 10px;
+    }
+    
+    .acceuil .main-btn{
+        color:#000;
+        
+    }
+    
+    .acceuil h1{
+        font-size: 20px;
+        font-weight: 600;
     }
 }
 
@@ -231,10 +261,9 @@ body
     border: 1px solid transparent;
 }
 
-.acceuil .main-btn h6
+.acceuil .main-btn
 {
     font-size: 25px;
-    font-weight: 600;
 }
 
 /*----------------------------Section acceuil-------------------------*/
