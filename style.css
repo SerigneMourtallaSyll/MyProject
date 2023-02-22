@@ -130,6 +130,12 @@ body
         font-size: 20px;
         font-weight: 600;
     }
+    
+    .products .main-btn
+    {
+        font-size:17px;
+        padding: 1% 4%;
+    }
 
 }
 
@@ -178,6 +184,12 @@ body
     .acceuil h1{
         font-size: 20px;
         font-weight: 600;
+    }
+    
+    .products .main-btn
+    {
+        font-size:17px;
+        padding: 1% 4%;
     }
 
 }
@@ -228,6 +240,12 @@ body
         font-size: 20px;
         font-weight: 600;
     }
+    
+    .products .main-btn
+    {
+        font-size:17px;
+        padding: 1% 4%;
+    }
 }
 
 /*----------------------------Section acceuil-------------------------*/
@@ -263,7 +281,7 @@ body
 
 .acceuil .main-btn
 {
-    font-size: 15px;
+    font-size: 17px;
 }
 
 /*----------------------------Section acceuil-------------------------*/
@@ -339,11 +357,7 @@ body
     padding: 1% 6%;
     border: 1px solid transparent;
     color:#000;
-}
-
-.products .main-btn
-{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
 }
 
