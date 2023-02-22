@@ -107,6 +107,18 @@ body
     {
         width: 140px;
     }
+    
+    .close-modal img{
+        display: none;
+        font-size: 50px;
+        width:50px;
+        margin-right:200px;
+    }
+    
+    .close-modal{
+        margin-right:200px;
+        display:none;
+    }
 }
 
 @media screen and (min-width:380px) and (max-width:480px)  
@@ -136,6 +148,18 @@ body
     #navbarNav form input
     {
         width: 140px;
+    }
+    
+    .close-modal img{
+        display: none;
+        font-size: 50px;
+        width:50px;
+        margin-right:200px;
+    }
+    
+    .close-modal{
+        margin-right:200px;
+        display:none;
     }
 
 }
@@ -167,6 +191,18 @@ body
     #navbarNav form input
     {
         width: 140px;
+    }
+    
+    .close-modal img{
+        display: none;
+        font-size: 50px;
+        width:50px;
+        margin-right:200px;
+    }
+    
+    .close-modal{
+        margin-right:200px;
+        display:none;
     }
 }
 
