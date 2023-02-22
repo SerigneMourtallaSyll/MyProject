@@ -129,6 +129,10 @@ footer
     {
         width: 205px;
     }
+    
+    fieldset form .inpt col-md-9{
+        margin-left:5%;
+    }
 }
 
 @media screen and (min-width:380px) and (max-width:480px)  
@@ -152,6 +156,10 @@ footer
     {
         width: 205px;
     }
+    
+    fieldset form .inpt col-md-9{
+        margin-left:5%;
+    }
 }
 
 @media screen and (min-width:330px) and (max-width:380px)  
@@ -174,5 +182,9 @@ footer
     fieldset form .inpt button
     {
         width: 205px;
+    }
+    
+    fieldset form .inpt col-md-9{
+        margin-left:5%;
     }
 }
