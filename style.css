@@ -76,6 +76,11 @@ body
         margin-left: 35%;
         margin-right: 35%;
     }
+    
+    .acceuil .main-btn{
+        color:#000;
+        font-size: 18px;
+    }
 
 }
 
@@ -123,7 +128,7 @@ body
     
     .acceuil .main-btn{
         color:#000;
-        
+        font-size: 17px;
     }
     
     .acceuil h1{
@@ -178,7 +183,7 @@ body
     
     .acceuil .main-btn{
         color:#000;
-        
+        font-size: 17px;
     }
     
     .acceuil h1{
@@ -233,7 +238,7 @@ body
     
     .acceuil .main-btn{
         color:#000;
-        
+        fontt-size: 17px;
     }
     
     .acceuil h1{
