@@ -114,7 +114,7 @@ body
     }
     
     .acceuil {
-        padding-top: 100px;
+        padding-top: 200px;
     }
     
     .contact h6{
@@ -133,7 +133,7 @@ body
     
     .products .main-btn
     {
-        font-size:17px;
+        font-size: 17px;
         padding: 1% 4%;
     }
 
